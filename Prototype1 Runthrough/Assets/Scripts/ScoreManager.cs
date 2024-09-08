@@ -26,8 +26,6 @@ public class ScoreManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-   
         //If the game is not over, display score
         if (!gameOver)
         {
