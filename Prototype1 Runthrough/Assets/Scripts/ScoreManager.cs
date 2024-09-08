@@ -12,7 +12,12 @@ public class ScoreManager : MonoBehaviour
 
     public Text textbox;
 
-
+    void Start()
+    {
+        gameOver = false;
+        won = false;
+        score = 0;
+    }
     // Update is called once per frame
     void Update()
     {
