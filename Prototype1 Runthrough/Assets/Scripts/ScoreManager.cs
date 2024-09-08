@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagent;
+using UnityEngine.SceneManagement;
 
 public class ScoreManager : MonoBehaviour
 {
