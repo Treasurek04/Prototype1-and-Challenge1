@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/*
+ Treasure Keys 
+Prototype 1
+Add to score when player hits the trigger 
+ */
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/*
+ Treasure Keys 
+Prototype 1
+Setup for Player movement and controls
+ */
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

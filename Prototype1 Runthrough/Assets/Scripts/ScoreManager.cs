@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/*
+ Treasure Keys 
+Prototype 1
+Manager score and restarts game when player wins or lose 
+ */
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
