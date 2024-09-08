@@ -2187,6 +2187,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 178130, guid: 70bf34f6c25c948458f254e87188b00b, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 436868, guid: 70bf34f6c25c948458f254e87188b00b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.32
@@ -2271,18 +2275,6 @@ MonoBehaviour:
   turnSpeed: 45
   forwardInput: 0
   horizontalInput: 0
---- !u!114 &981753048
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 981753041}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: be84af7c8de4fd844936a5aafa703a92, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &981753049
 MonoBehaviour:
   m_ObjectHideFlags: 0
