@@ -2640,6 +2640,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72046cdecd2109c4996f9fa3738b1b5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  textbox: {fileID: 1942656351}
 --- !u!4 &1187113615
 Transform:
   m_ObjectHideFlags: 0
