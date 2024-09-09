@@ -44,16 +44,21 @@ public class ScoreManager : MonoBehaviour
 
         if (gameOver)
         {
-            textbox.text = "You win!\nPress R to Try Again!";
-        }
-        else
-        {
-            textbox.text = "You lose!\nPress R to Try Again!";
+            if (won)
+            {
 
-        }
-        if(Input.GetKeyDown(KeyCode.R))
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+                textbox.text = "You win!\nPress R to Try Again!";
+            }
+
+            else
+            {
+                textbox.text = "You lose!\nPress R to Try Again!";
+
+            }
+            if (Input.GetKeyDown(KeyCode.R))
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            }
         }
     }
 }
