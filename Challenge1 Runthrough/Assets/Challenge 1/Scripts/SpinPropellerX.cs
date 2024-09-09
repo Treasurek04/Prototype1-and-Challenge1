@@ -9,12 +9,12 @@ using UnityEngine;
 
 public class SpinPropellerX : MonoBehaviour
 {
-    public float rotationSpeed;
+    public float rotationSpeed = 100f;
 
     // Start is called before the first frame update
     private void Update()
     {
-         transform.Rotate(Vector3.right * rotationSpeed * Time.deltaTime);
+         transform.Rotate(Vector3.forward * rotationSpeed * Time.deltaTime);
     }
 }
 
