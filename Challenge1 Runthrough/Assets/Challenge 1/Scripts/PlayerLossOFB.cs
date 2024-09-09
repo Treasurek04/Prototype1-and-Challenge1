@@ -9,7 +9,7 @@ public class PlayerLossOFB : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (transform.position.y > 80 || transform.position.y <-51)
+        if ((transform.position.y > 80) || (transform.position.y <-51))
         {
             ScoreManager.gameOver = true;
         }
